@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form>
+        <h3> Login Form</h3>
+        <label>Username: </label>
+        <input type="text" placeholder="Enter Username" required>
+        <br>
+        <label>Email: </label>
+        <input type="email" placeholder="Enter Email" required>
+        <br>
+        <label>Password: </label>
+        <input type="password" placeholder="Enter Password" required>
+        <br>
+        <label>Phone No. </label>
+        <input type="tel" placeholder="Enter no.">
+        <br>
+        <br>
+        <hr>
+
+
+        <h4>Enter Class to Choose</h4>
+        <label>
+            <input type="radio" value="Class XII" name="form1"> Class 12
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="Class X" name="form1"> Class 10
+        </label>
+        <br>
+        <label for="101">
+            <input type="radio" value="Class IX" name="form1" id="101"> Class 9
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="Class IX" name="form1" id="102"> Class 9
+        </label>
+        <hr>
+        
+        <h4>Without Label</h4>
+        <input type="radio" value="Class XII" name="class2"> Class 12
+        <br>
+        <input type="radio" value="Class X" name="class2"> Class 10
+        <br><br>
+        <input type="radio" name="class1"> None Of These
+        <br>
+        <input type="radio" name="class1"> All of These
+        <br><hr>
+
+        <!-- <div id="101" class="grp1"></div> Div 1
+        <div id="102" class="grp2"></div> Div 2 -->
+
+        <h4>Choose Atleast 3 Subjects</h4>
+        <label>
+            <input type="checkbox"> Maths <br>
+        </label>
+        <label>
+            <input type="checkbox"> Physics<br>
+        </label>
+        <label>
+            <input type="checkbox"> Chemistry<br>
+        </label>
+        <label>
+            <input type="checkbox"> CS <br>
+        </label>
+        <label>
+            <input type="checkbox" value="subjects" name="form1"> PHE<br>
+        </label>
+        <hr>
+        <h4>Feedback</h4>
+        <textarea placeholder="Give Your Feedback" rows="7" cols="30"></textarea>
+
+        <hr>
+        <h4>City Selection</h4>
+        <select name="City">
+            <option>Select City</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Pune">Pune</option>
+        </select> 
+        <hr>
+        
+         <h4>Choose Suggestion</h4>
+        <input list="Coder" placeholder="Suggestion Box">
+        <datalist id="Coder">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JS"></option>
+            <option value="NODE"></option>
+            <option value="REACT"></option>
+        </datalist>
+        <br><hr>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+     </form>
+    
+</body>
+</html>
