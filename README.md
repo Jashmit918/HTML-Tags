@@ -1,5 +1,6 @@
-# HTML TAGS
+## HTML TAGS
 This Repository consist of almost all important HTML Tags.
 
-### Deployed Site
+
+## Deployed Site
 https://jashmit918.github.io/HTML-Tags/
