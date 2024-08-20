@@ -1,5 +1,5 @@
 ## HTML TAGS
-This Repository consist of almost all important HTML Tags.
+This Repository contain almost all important HTML Tags.
 
 
 ## Deployed Site
